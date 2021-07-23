@@ -4,7 +4,7 @@ using System.Text;
 
 namespace eShopSolution.Data.Entities
 {
-    public class Configuration
+    public class AppConfig
     {
         public string Key { set; get; }
         public string Value { set; get; }

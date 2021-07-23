@@ -13,6 +13,7 @@ namespace eShopSolution.Data.Entities
         public bool IsShowOnHome { set; get; }
         public int? ParentId { set; get; }
         public Status Status { set; get; } // Status là 1 Enums
+        public List<ProductInCategory> ProductInCategories { set; get; }
 
 }
 }
