@@ -20,6 +20,12 @@ namespace eShopSolution.Data.EF
             modelBuilder.ApplyConfiguration(new OrderConfiguration());
             modelBuilder.ApplyConfiguration(new OrderDetailConfiguration());
             modelBuilder.ApplyConfiguration(new ProductInCategoryConfiguration());
+            modelBuilder.ApplyConfiguration(new ContactConfiguration());
+            modelBuilder.ApplyConfiguration(new CartConfiguration());
+            modelBuilder.ApplyConfiguration(new CategoryTranslationConfiguration());
+            modelBuilder.ApplyConfiguration(new LanguageConfiguration());
+            modelBuilder.ApplyConfiguration(new PromotionConfiguration());
+            modelBuilder.ApplyConfiguration(new TransactionConfiguration());
             //base.OnModelCreating(modelBuilder);
         }
 

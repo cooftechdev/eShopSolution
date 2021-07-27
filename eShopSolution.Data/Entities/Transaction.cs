@@ -14,8 +14,9 @@ namespace eShopSolution.Data.Entities
         public decimal Fee { set; get; }
         public string Result { set; get; }
         public string Message { set; get; }
-        public Status Status { set; get; }
+        public TransactionStatus Status { set; get; }
         public string Provider { set; get; }
+        public Guid UserId { set; get; }
 
     }
 }

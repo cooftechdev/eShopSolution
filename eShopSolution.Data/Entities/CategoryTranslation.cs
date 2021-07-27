@@ -4,7 +4,7 @@ using System.Text;
 
 namespace eShopSolution.Data.Entities
 {
-    public class CategoriesTranslation
+    public class CategoryTranslation
     {
         public int Id { set; get; }
         public int CategoryId { set; get; }
@@ -13,6 +13,8 @@ namespace eShopSolution.Data.Entities
         public string SeoTitle { set; get; }
         public int LaguageId { set; get; }
         public string SeoAlias { set; get; }
+        public Language Language { set; get; }
+        public Category Category { set; get; }
 
     }
 }

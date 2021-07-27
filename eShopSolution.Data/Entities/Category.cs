@@ -14,6 +14,7 @@ namespace eShopSolution.Data.Entities
         public int? ParentId { set; get; }
         public Status Status { set; get; } // Status là 1 Enums
         public List<ProductInCategory> ProductInCategories { set; get; }
+        public List<CategoryTranslation> CategoryTranslations { set; get; }
 
 }
 }
