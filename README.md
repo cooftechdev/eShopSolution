@@ -6,3 +6,4 @@
 - Entity Design 3.1.1
 - Entity Sql Server 3.1.1
 - Entity Tools 3.1.1
+- Configuration.Json 3.1.1
