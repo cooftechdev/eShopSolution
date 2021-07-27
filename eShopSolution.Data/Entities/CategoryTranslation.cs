@@ -11,7 +11,7 @@ namespace eShopSolution.Data.Entities
         public string Name { set; get; }
         public string SeoDescription { set; get; }
         public string SeoTitle { set; get; }
-        public int LaguageId { set; get; }
+        public string LaguageId { set; get; }
         public string SeoAlias { set; get; }
         public Language Language { set; get; }
         public Category Category { set; get; }
