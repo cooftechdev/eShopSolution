@@ -18,8 +18,8 @@ namespace eShopSolution.Data.Configurations
             builder.Property(x => x.SeoAlias).HasMaxLength(200).IsRequired();
             builder.Property(x => x.SeoDescription).HasMaxLength(500);
             builder.Property(x => x.SeoTitle).HasMaxLength(200);
-            builder.Property(x => x.LaguageId).IsRequired().HasMaxLength(5).IsUnicode(false);
-            builder.HasOne(x => x.Language).WithMany(x => x.CategoryTranslations).HasForeignKey(x => x.LaguageId);
+            builder.Property(x => x.LanguageId).IsRequired().HasMaxLength(5).IsUnicode(false);
+            builder.HasOne(x => x.Language).WithMany(x => x.CategoryTranslations).HasForeignKey(x => x.LanguageId);
             builder.HasOne(x => x.Category).WithMany(x => x.CategoryTranslations).HasForeignKey(x => x.CategoryId);
         }
     }
